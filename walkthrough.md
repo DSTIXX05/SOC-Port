@@ -6,6 +6,7 @@
 
 ## 📌 Project Overview
 
+![Snort hero image](./images/image.png)
 Intrusion Detection Systems (IDS) and Intrusion Prevention Systems (IPS) are critical components of modern network security architectures. They are used to monitor network traffic, detect malicious activities, and respond appropriately.
 
 This project focuses on configuring **Snort 2** as an **Intrusion Detection System (IDS)** to detect malicious activities such as ICMP reconnaissance, Nmap TCP SYN scans, hping3-based SYN flood attacks, and unauthorized SSH connection attempts. The project also includes a critical analysis of IDS and IPS technologies and their effectiveness against modern cyber threats.
@@ -56,6 +57,8 @@ alert icmp any any -> 192.168.56.102 any (msg:"ALERT: Suspicious Ping to Metaspl
 
 **Explanation:**
 This rule detects ICMP echo requests (ping) directed at the Metasploitable machine. ICMP traffic is often used during reconnaissance to identify live hosts.
+![alt text](./images/image2.png)
+![alt text](./images/image3.png)
 
 ---
 
